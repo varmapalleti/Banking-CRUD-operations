@@ -1,4 +1,4 @@
--- Initialize banking_system database and required tables
+
 CREATE DATABASE IF NOT EXISTS banking_system;
 USE banking_system;
 
@@ -18,6 +18,3 @@ CREATE TABLE IF NOT EXISTS `Accounts` (
   INDEX (email)
 );
 
--- Optional: sample data
--- INSERT INTO `User` (full_name, email, password) VALUES ('Test User', 'test@example.com', 'secret');
--- INSERT INTO `Accounts` (account_number, full_name, email, balance, security_pin) VALUES (10000100, 'Test User', 'test@example.com', 1000.0, '1234');
